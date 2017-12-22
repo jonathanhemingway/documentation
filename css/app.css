@@ -1,0 +1,234 @@
+ 
+/********************************************/
+/* Hey there. This stylesheet is broken up 
+into the following sections.
+
+SECTION 1: GENERAL STYLES
+SECTION 2: CUSTOM CLASSES & IDS
+SECTION 3: BUTTONS
+SECTION 4: MENU AND NAV
+SECTION 5: OFF CANVAS NAV
+SECTION 6: MAIN DIVS AS THEY APPEAR IN THE HTML
+SECTION 7: FOOTER
+SECTION 8: MEDIA QUERIES - THIS SITE WAS BUILT 
+MOBILE FIRST. SO THE MEDIA QUERIES PERTAIN TO 
+MEDIUM AND LARGE SCREENS. */
+/********************************************/
+
+/********************************************/
+/* GENERAL STYLES */
+/********************************************/
+ * {
+ 	box-sizing: border-box;
+ }
+
+ header{
+ 	background-color: #542d0d;
+ 	padding: .5rem;
+ }
+
+ header h1{
+ 	color: #fff;
+ 	font-weight: 200;
+ }
+
+ h2{
+ 	font-size: 2rem;
+ }
+
+ .hero{
+ 	background-image: url(../img/communicate.jpg);
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	background-position: top;
+ }
+
+ .overlay{
+ 	padding: 5rem 0;
+ 	background-color: rgba(0,0,0,0.6);
+ }
+
+ blockquote{
+ 	font-size: 1rem;
+ 	font-weight: 300;
+ 	font-style: italic;
+ 	color: #fff;
+ }
+
+ blockquote cite{
+ 	font-size: 1rem;
+ 	font-weight: 300;
+ 	font-style: italic;
+ 	color: #fff;
+ }
+
+ .content{
+ 	margin: 2rem;
+ }
+
+ .panel{
+ 	background-color: #fff;
+ 	padding: 1rem;
+ 	position: relative;
+ 	padding-bottom: 30%;
+ }
+
+ .panel h2{
+ 	color: #542d0d;
+ 	font-weight: 400;
+ }
+
+ .button{
+ 	background-color: #FF5252;
+ 	font-weight: 400; 
+ 	text-transform: uppercase;
+ }
+
+ .button:hover{
+ 	background-color: #fff;
+ 	border: 2px solid #FF5252;
+ 	color: #FF5252;
+ }
+
+ .buttonBottom{
+ 	position: absolute;
+ 	bottom: 1%;
+ }
+
+ footer{
+ 	background-color: #542d0d;
+ 	padding: .5rem;
+ }
+
+ footer h4{
+ 	color: #fff;
+ 	font-weight: 200;
+ }
+
+
+
+
+
+
+
+ /* RESEARCH.HTML BEGINS */
+
+ .r-content h2{
+ 	color: #542d0d;
+ 	font-weight: 400;
+ 	padding: 1rem 0;
+ }
+
+ .r-content{
+ 	padding: 1rem;
+ }
+
+ .r-content .panel{
+ 	padding-bottom: 0;
+ }
+
+ /* RESEARCH.HTML ENDS */
+
+
+
+ /* PERSONAS.HTML BEGIN */
+
+.p-content{
+ 	padding: 1rem;
+ }
+
+
+ .p-content h2{
+ 	color: #542d0d;
+ 	font-weight: 400;
+ 	padding: 1rem;
+ }
+
+ .p-content .panel{
+	padding: 0;
+}
+
+
+ /* PERSONAS.HTML ENDS */
+
+
+ /* SCENARIOS.HTML BEGIN */
+ 
+.s-content{
+ 	padding: 1rem;
+ }
+
+
+ .s-content h2{
+ 	color: #542d0d;
+ 	font-weight: 400;
+ 	padding: 1rem;
+ }
+
+ .s-content .panel{
+	padding: 0;
+}
+
+
+ /* SCENARIOS.HTML ENDS */
+
+
+ /* WIREFRAME.HTML BEGINS */
+
+ .w-content{
+ 	padding: 1rem;
+ }
+
+ .w-content h2{
+ 	color: #542d0d;
+ 	font-weight: 400;
+ 	padding: 1rem;
+ }
+
+ .w-content p{
+ 	padding: 1rem;
+ }
+
+.w-content .panel{
+	padding: 0 0 20rem;
+}
+ .w-content img{
+ 	position: absolute;
+ 	bottom: 5%;
+ 	left: 12%;
+ 	width: 75%;
+ }
+
+/* WIREFRAME.HTML ENDS */
+
+
+/********************************************/
+/* MEDIA QUERIES */
+/********************************************/
+/* Medium screens */
+/* min-width 641px, medium screens */
+@media only screen and (min-width: 40.063em) { 
+
+	blockquote{
+		font-size :1.7rem;
+	}
+
+	blockquote cite{
+	 	font-size: 1.3rem;
+ 	}
+
+	.overlay{
+		padding: 10rem;
+		background-color: rgba(0,0,0,0.4);
+	}
+
+} 
+
+/* min-width 1025px, large screens */
+/* Large screens */
+@media only screen and (min-width: 64.063em) { 
+	h2{
+ 		font-size: 2.3125rem;
+ 	}
+} 
+
